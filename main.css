@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/* Seletores Genéricos */
+
+body {
+    background-color: black;
+    height: 100%;
+    color: white;
+    display: grid;
+    justify-content: space-around;
+}
+
+p {
+    text-indent: 2rem;
+}
+
+a, a:visited, a:focus {
+    text-decoration: underline;
+    color: inherit;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: red;
+    font-size: 1.1rem;
+}
+
+
+/* Seletores de Classe-ID */
+
+
+.nav-ul{
+    display: none;
+    justify-content: space-around;
+}
+.nav-ul-li {
+    list-style: none;
+}
+
+.nav-ul-li>a {
+    text-decoration: none;
+}
+.nav-ul-li>a:hover{
+    color: red;
+}
+
+.profile {
+    background-color: black;
+    color: white;
+    
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+.foto-perfil{
+    display: flex;
+    width: auto;
+    border-radius: 50%;
+    height: auto;
+}
+
+#info {
+    
+    margin: 3rem;
+    display: grid;
+    color: white;
+
+}
+
+#info>p {
+    text-align: justify;
+}
+
+
+/* @media */
+
+
+
+
+ /* .CSS-HTML {
+    background-color: aqua;
+ }
+ .JavaScript {
+    background-color: yellow;
+ }
+ .React {
+    background-color: darkred;
+ } */
