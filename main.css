@@ -16,8 +16,6 @@ body {
     justify-content: space-around; */
 }
 
-
-
 p {
     text-indent: 2rem;
     text-align: justify;
@@ -35,14 +33,21 @@ a:active {
     font-size: 1.1rem;
 }
 iframe {
-    width: 100%;
+    width: 98%;
     height: 640px;
     display: block;
     object-fit: scale-down;
+    border: 2px solid white;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 
 /* Seletores de Classe-ID */
+
+.gambiarra-padding-top {
+    display: none;
+}
 
 #h1-projects-computer-portrait {
     display: none;
@@ -79,6 +84,8 @@ iframe {
 }
 
 .foto-perfil{
+    height: 12rem;
+    width: 12rem;
     border-radius: 50%;
     border: 2px solid white;
     box-shadow: 0 0 1px 2px gold;
@@ -103,5 +110,6 @@ iframe {
 }
 #Projects {
     margin: 1.5rem;
+    padding-bottom: 3rem;
  }
 
