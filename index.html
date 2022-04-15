@@ -5,77 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
     <title>Fabio Rengel</title>
 </head>
 <body>
-    <div class="nav">
-        <ul class="nav-ul">
-            <li class="nav-ul-li" > <a href="#info">Info</a></li>
-            <li class="nav-ul-li" ><a href="#projects">Projects</a></li>
-        </ul>
+    <div class="gambiarra-padding-top"></div>
+    <div class="profile">
+        <div class="img-nome-div">
+            <img class="foto-perfil" src="./Images/Perfil.jpg" alt="Foto do autor do site com um pinguim.">
+            <h1>Fábio Rengel</h1>
+        </div>
     </div>
-    <section class="profile">
-        <img src="./Images/Perfil.jpg" alt="Foto do autor do site com um pinguim." class="foto-perfil">
-        <h1>Fábio Rengel</h1>
-    </section>
-    
-    <section id="info">
-        <h2>Desenvolvedor FrontEnd Júnior</h2>
+    <div class="side-projects__container">
+        <div id="side">
+            <section id="info">
+                <p>Bacharel em Ciências da Computação (2005 - Unip), atuei principalmente na área de Service-Desk e outros  serviços não ligados diretamente à informática. Em 2019, cursava Ciências Sociais pela USP, em 2020 tive necessidade de repensar meu rumo devido aos desafios impostos pela pandemia. Após resolver alguns destes desafios, mirei desenvolvimento Web como alternativa e descobri uma nova paixão.</p>
+                <br>
+                <h2>Cursos e Certificados</h2>
+                <ul>
+                    <li>Bacharelado Ciências da Computação - Unip (2005)</li>
+                    <li>Linux: LPIC-1 (2008)</li>
+                    <li>Microsoft: MCDST XP, MCSA Server 2003, MCSA Windows 8.1 (2008)</li>
+                    <li>ITIL Foundation (2014) </li>
+                    <li><a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/" target="_blank">CSS - The Complete Guide 2022</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&ab_channel=CursoemV%C3%ADdeo" target="_blank">Curso completo e atual de HTML5 e CSS3</a></li>
+                    <li><a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/" target="_blank">React - The Complete Guide (incl Hooks, React Router, Redux)
+                    </a></li>
+                </ul>
+                <h2>React</h2>
+                <ul>
+                    <li>Functional Components</li>
+                    <li>Hooks - useState, useEffect, useReducer, ... </li>
+                    <li>Redux</li>
+                </ul>
+                <h2>CSS</h2>
+                <ul>
+                    <li>Flexbox, Grid</li>
+                    <li>@media</li>
+                    <li>@keyframe</li>
+                    <li>SASS</li>
+                    <li>CSS Modules</li>
+                    
+                </ul>
+                <h2>JavaScript</h2>
+                <ul>
+                    <li>ES6</li>
+                    <li>getElementBy, addEventListener</li>
+                    <li>Arrow functions</li>
+                    <li>map(), filter(), some(), ...</li>
+                    <li>Promises, async, await, fetch()</li>
+                </ul>
+               
+                <h2>Inglês</h2>
+                <ul>
+                    <li>Avançado - Cultura inglesa - 2016</li>
+                    <li>Intercambio África do Sul, avançado - nov/2016</li>
+                    <li>Intercambio Austrália, IELTS -  mai-ago/2017  </li>
+                </ul>
+                
+            </section>
+        </div>
+        <section id="Projects">
+            <h1 id="h1-projects-cellphone_portrait">Projetos</h1>
+            <div class="Project-container">
+                <h2><a href="https://fabiorengel.github.io/PrimeiroSite/" target="_blank"> Meu Primeiro Site - HTML5 / CSS3 </a></h2>
+                <br>
+                <p> Este projeto foi passado em aula no curso em video de HTML5 - CSS 3 disponível no youtube. Nele já foram usados conceitos como responsividade e semantica. Mesmo sendo gratuito o curso tem excelente conteúdo e conta com um professor experiente e dedicado, Gustavo Guanabara.</p>
+                <br>
+                <iframe src="https://fabiorengel.github.io/PrimeiroSite/" frameborder="0"></iframe>
+            </div>
+            <div class="Project-container">
+                <h2><a href="https://fabiorengel.github.io/CSSuHost/" target="_blank"> uHost - CSS</a></h2>
+                <br>
+                <p> O uHost foi o projeto usado no curso inteiro de CSS - udemy.com. No primeiro módulo ele foi desenvolvido com poucos recursos e a medida que conceitos como @media e Flexbox eram apresentados, o projeto era atualizado. </p>
+                <br>
+                <iframe src="https://fabiorengel.github.io/CSSuHost/" frameborder="0"></iframe>
+            </div>
+            <div class="Project-container">
+                <br>
+                <h2><a href="https://github.com/fabiorengel/Ligue4-JS" target="_blank"> Ligue 4 (Connect Four) - JavaScript</a></h2>
+                <br>
+                <p> Ligue 4 é um jogo de domínio público que utilizei como desafio para aprender Javascript. Eu comecei este desafio antes do segundo curso de CSS e para tanto contei com a tutoria <a href="https://github.com/viniciusdeliz">@viniciusdeliz</a> para me apresentar conceitos de CSS que eu ainda não havia visto. Sou responsável pela lógica, inclusive pela inteligência do computador. </p>
+                <br>
+                <iframe src="https://fabiorengel.github.io/Ligue4-JS/" frameborder="0" scrolling="auto" objet-fit="contain"></iframe>
+            </div>
 
-        <p> Bacharel em Ciências da Computação (2005 - Unip), atuei principalmente na área de Service-Desk e outros  serviços não ligados diretamente a informática. Em 2018, cursava Ciências Sociais pela USP, mas fui forçado a abandonar em 2019 pelos desafios impostos pela pandemia. Após resolver alguns destes desafios, mirei desinvolvimento Web como alternativa e descobri uma nova paixão</p>
-        <br>
-
-        <h2>CSS</h2>
-        <ul>
-            <li>Flexbox, Grid</li>
-            <li>@media</li>
-            <li>@keyframe</li>
-            <li>SASS</li>
-            <li>.modules for React</li>
-            <li><a href="https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/" target="_blank">Curso: CSS - The Complete Guide 2022</a></li>
-            <li><a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&ab_channel=CursoemV%C3%ADdeo" target="_blank">Curso: Curso completo e atual de HTML5 e CSS3</a></li>
-        </ul>
-        <h2>JavaScript</h2>
-        <ul>
-            <li>ES6</li>
-            <li>getElementBy, addEventListener</li>
-            <li>Arrow functions</li>
-            <li>map(), filter(), some(), ...</li>
-            <li>Promises, async, await, fetch()</li>
-        </ul>
-        <h2>React</h2>
-        <ul>
-            <li>Functional Components</li>
-            <li>Hooks - useState, useEffect, useReducer, ... </li>
-            <li>Redux</li>
-            <li><a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/" target="_blank">Curso: React - The Complete Guide (incl Hooks, React Router, Redux)
-            </a></li>
-        </ul>
-        <h2>Inglês</h2>
-        <ul>
-            <li>Avaçado - Cultura inglesa - 2016</li>
-            <li>Intercambio África do Sul, avançado - nov/2016</li>
-            <li>Intercambio Austrália, IELTS -  mai-ago/2017  </li>
-        </ul>
+            <div class="Project-container">
+                <br>
+                <h2><a href="https://react4.firebaseapp.com/" target="_blank"> Expense Tracker - React</a></h2>
+                <br>
+                <p> Antes da atualização do curso de React, este era o principal projeto dele. Um esboço de Expense Tracker com intuito de aprensentar conceitos de React como componentes, Hooks, JSX e props. </p>
+                <br>
+                <iframe src="https://react4.firebaseapp.com/" frameborder="0" scrolling="auto"></iframe>
+            </div>
+            <div class="Project-container">
+                <br>
+                <h2><a href="https://react2-4fdd1.web.app/firebase" target="_blank">ReactMeals</a></h2>
+                <br>
+                <p>ReactMeals, outro projeto do curso de React, utiliza a maioria dos conceitos fundamentais do Framework. Inclusive, embora desabilitado, com Fetch em API para envio dos pedidos e recebimento do cardápio. Durante o desenvolvimento foram apresentados diferentes formas de manipular dados, como Redux, useContext e Custom Hook.</p>
+                <br>
+                <iframe src="https://react2-4fdd1.web.app/firebase" frameborder="0" scrolling="auto"></iframe>
+            </div>
+        </div>
     </section>
-
-    
-    
-    
-    
-    <section id="Projects"></section>
-    
-    
-    
-    
-    <section class="CSS-HTML">
-        <p>CSS</p>
-    </section>
-    <section class="JavaScript">
-        <p>JS</p>
-    </section>
-    <section class="React">
-        <p>React</p>
-    </section>
+    <footer>
+        <ul id="contact">
+            <li>
+                <a href="mailto:fabiorengel@gmail.com">Email - </a>
+            </li>
+            <li>
+                <a href="www.linkedin.com/in/fabiorengel" target="_blank" >Linkedin -</a>
+            </li>
+            <li>
+                <a href="https://github.com/fabiorengel" target="_blank">GitHub -</a>
+            </li>
+            <li><a href="https://web.whatsApp.com/send?phone=5511949942084" target="_blank">WhatsApp</a></li>
+        </ul>
+    </footer>
 </body>
 </html>

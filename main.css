@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+
 *{
     box-sizing: border-box;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
 
@@ -7,14 +10,17 @@
 
 body {
     background-color: black;
-    height: 100%;
     color: white;
-    display: grid;
-    justify-content: space-around;
+    /* display: grid;
+    height: 100%;
+    justify-content: space-around; */
 }
+
+
 
 p {
     text-indent: 2rem;
+    text-align: justify;
 }
 
 a, a:visited, a:focus {
@@ -22,75 +28,80 @@ a, a:visited, a:focus {
     color: inherit;
 }
 a:hover {
-    color: red;
+    color: gold;
 }
 a:active {
     color: red;
     font-size: 1.1rem;
 }
+iframe {
+    width: 100%;
+    height: 640px;
+    display: block;
+    object-fit: scale-down;
+}
 
 
 /* Seletores de Classe-ID */
 
-
-.nav-ul{
+#h1-projects-computer-portrait {
     display: none;
-    justify-content: space-around;
-}
-.nav-ul-li {
-    list-style: none;
 }
 
-.nav-ul-li>a {
-    text-decoration: none;
+#contact {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 4rem;
+    padding: 1.5rem;
+    margin: 0;
+    position: fixed;
+    bottom: 0%;
 }
-.nav-ul-li>a:hover{
-    color: red;
+#contact * {
+    display: inline;
+    text-decoration: 0;
 }
 
 .profile {
     background-color: black;
     color: white;
-    
-    z-index: 10;
     width: 100%;
-    height: 100%;
-    display: grid;
-    align-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
     justify-items: center;
+    justify-content: center;
+}
+
+.profile h1 {
+    text-align: center;
 }
 
 .foto-perfil{
-    display: flex;
-    width: auto;
     border-radius: 50%;
-    height: auto;
+    border: 2px solid white;
+    box-shadow: 0 0 1px 2px gold;
 }
-
+#contact {
+    display: block;
+}
+#contact::before {
+    text: contact;
+}
+#Projects > h1 {
+    font-size: 2.5rem;
+}
 #info {
-    
-    margin: 3rem;
+    margin: 5rem 1rem;
     display: grid;
     color: white;
 
 }
-
 #info>p {
     text-align: justify;
 }
-
-
-/* @media */
-
-
-
-
- /* .CSS-HTML {
-    background-color: aqua;
+#Projects {
+    margin: 1.5rem;
  }
- .JavaScript {
-    background-color: yellow;
- }
- .React {
-    background-color: darkred;
- } */
+
