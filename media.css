@@ -11,13 +11,13 @@
     }
     .gambiarra-padding-top h1 {
         position: relative;
-        top: -20rem;
+        top: -1rem;
         display: block;
         text-align: center;
         font-size: 5rem;
         /* transform: translateY(50rem);
         transition: ease-out 2s 5.5s; */
-        animation: ease-out entrance 3s 4s forwards;
+        /* animation: ease-out entrance 3s 4s forwards; */
 
     }
     .profile {
@@ -26,7 +26,7 @@
         top: 0;
         height: 100vh;
         transform: translateY(-100vh);
-        transition: ease-out 2.5s 1.5s;
+        transition: ease-in 2s 1.5s;
         /*
         display: block;
         border-bottom: 0.5px white solid;
@@ -47,8 +47,8 @@
         align-items: center;
     }
     .img-nome-div h1 {
-        font-size: 4.0rem;
-        /*
+        display: none;        
+        /* font-size: 4.0rem;
          margin-left: 5vw; */
 
     } 
@@ -135,7 +135,7 @@
     }
 }
 
-@keyframes entrance {
+/* @keyframes entrance {
 
     0% {
         transform: translateY(12rem)
@@ -143,6 +143,4 @@
     100%{
         transform: translateY(19rem)
     }
-
-
-}
+} */
